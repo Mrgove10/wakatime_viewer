@@ -17,19 +17,18 @@
     <!--bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 </head>
 
 <body>
     <a href="https://wakatime.com/settings/account">export your data here</a>
     <form>
         <input id="fileForUpload" type="file">
-        <button type="button" onclick="main();">go</button>
+        <button type="button" onclick="readFile();">read file</button>
     </form>
     <div id="chart"></div>
+    <br />
     <div id="totaldays"></div>
     <br />
-    <div id="fileContents">
     </div>
     <!--bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
