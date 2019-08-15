@@ -21,10 +21,14 @@ function main() {
 
 function extractData(myJSON) {
     console.info("Extracting data");
+
+    //vars
     var days = []
     var hours = [];
     var minutes = [];
-    mostCoded(myJSON);
+
+    //functions
+
     myJSON.days.forEach(element => {
         days.push(element.date);
         hours.push(element.grand_total.hours);
@@ -33,8 +37,12 @@ function extractData(myJSON) {
     console.log(hours);
     console.log(minutes);
 
-    console.log("average minutes : "+calcAverage(minutes));
-   
+
+    mostCoded(myJSON);
+    calcAverage(minutes);
+
+
+    //charts
     var chart = c3.generate({
         bindto: '#chart',
         data: {
@@ -44,12 +52,11 @@ function extractData(myJSON) {
     });
 }
 
-function calcAverage(numbers){
-    var sum = numbers.reduce((partial_sum, a) => partial_sum + a,0); 
+function calcAverage(numbers) {
+    var sum = numbers.reduce((partial_sum, a) => partial_sum + a, 0);
     return (sum / sum.numbers);
 }
 
-function mostCoded(numbers){
-    var sum = numbers.reduce((partial_sum, a) => partial_sum + a,0); 
-    return (sum / sum.numbers);
+function mostCoded(alldays) {
+    Math.max.apply(Math, alldays.map(function (o) { return o.grand_total.total_seconds; }))
 }
