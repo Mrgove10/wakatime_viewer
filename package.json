@@ -1,0 +1,19 @@
+{
+  "name": "wakatime_viewer",
+  "version": "1.0.0",
+  "description": "Wakatime total stats viewer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrgove10/wakatime_viewer.git"
+  },
+  "author": "Adrien R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mrgove10/wakatime_viewer/issues"
+  },
+  "homepage": "https://github.com/Mrgove10/wakatime_viewer#readme"
+}

@@ -1,0 +1,172 @@
+{
+    "categories": [
+        {
+            "digital": "0:00:12",
+            "hours": 0,
+            "minutes": 0,
+            "name": "Coding",
+            "percent": 100,
+            "seconds": 12,
+            "text": "12 secs",
+            "total_seconds": 12.18301796913147
+        }
+    ],
+    "date": "2018-04-27",
+    "dependencies": [],
+    "editors": [
+        {
+            "digital": "0:00:12",
+            "hours": 0,
+            "minutes": 0,
+            "name": "VS Code",
+            "percent": 100,
+            "seconds": 12,
+            "text": "12 secs",
+            "total_seconds": 12.18301796913147
+        }
+    ],
+    "grand_total": {
+        "digital": "0:00",
+        "hours": 0,
+        "minutes": 0,
+        "text": "0 secs",
+        "total_seconds": 12.18301796913147
+    },
+    "languages": [
+        {
+            "digital": "0:00:12",
+            "hours": 0,
+            "minutes": 0,
+            "name": "XML",
+            "percent": 100,
+            "seconds": 12,
+            "text": "12 secs",
+            "total_seconds": 12.18301796913147
+        }
+    ],
+    "machines": [
+        {
+            "digital": "0:00:12",
+            "hours": 0,
+            "machine_name_id": "cfd033be-2bf7-4faf-9bae-bc84c0e0dfdf",
+            "minutes": 0,
+            "name": "Adrien-Aspire-VX15",
+            "percent": 100,
+            "seconds": 12,
+            "text": "12 secs",
+            "total_seconds": 12.18301796913147
+        }
+    ],
+    "operating_systems": [
+        {
+            "digital": "0:00:12",
+            "hours": 0,
+            "minutes": 0,
+            "name": "Windows",
+            "percent": 100,
+            "seconds": 12,
+            "text": "12 secs",
+            "total_seconds": 12.18301796913147
+        }
+    ],
+    "projects": [
+        {
+            "branches": [
+                {
+                    "digital": "0:00:12",
+                    "hours": 0,
+                    "minutes": 0,
+                    "name": "Unknown",
+                    "percent": 100,
+                    "seconds": 12,
+                    "text": "12 secs",
+                    "total_seconds": 12.18301796913147
+                }
+            ],
+            "categories": [
+                {
+                    "digital": "0:00:12",
+                    "hours": 0,
+                    "minutes": 0,
+                    "name": "Coding",
+                    "percent": 100,
+                    "seconds": 12,
+                    "text": "12 secs",
+                    "total_seconds": 12.18301796913147
+                }
+            ],
+            "dependencies": [],
+            "editors": [
+                {
+                    "digital": "0:00:12",
+                    "hours": 0,
+                    "minutes": 0,
+                    "name": "VS Code",
+                    "percent": 100,
+                    "seconds": 12,
+                    "text": "12 secs",
+                    "total_seconds": 12.18301796913147
+                }
+            ],
+            "entities": [
+                {
+                    "digital": "0:00:12",
+                    "hours": 0,
+                    "minutes": 0,
+                    "name": "C:/users/richa/documents/my games/far cry 5/gamerprofile.xml",
+                    "percent": 100,
+                    "seconds": 12,
+                    "text": "12 secs",
+                    "total_seconds": 12.18301796913147,
+                    "type": "file"
+                }
+            ],
+            "grand_total": {
+                "digital": "0:00",
+                "hours": 0,
+                "minutes": 0,
+                "percent": 100,
+                "text": "0 secs",
+                "total_seconds": 12.18301796913147
+            },
+            "languages": [
+                {
+                    "digital": "0:00:12",
+                    "hours": 0,
+                    "minutes": 0,
+                    "name": "XML",
+                    "percent": 100,
+                    "seconds": 12,
+                    "text": "12 secs",
+                    "total_seconds": 12.18301796913147
+                }
+            ],
+            "machines": [
+                {
+                    "digital": "0:00:12",
+                    "hours": 0,
+                    "machine_name_id": "cfd033be-2bf7-4faf-9bae-bc84c0e0dfdf",
+                    "minutes": 0,
+                    "name": "Adrien-Aspire-VX15",
+                    "percent": 100,
+                    "seconds": 12,
+                    "text": "12 secs",
+                    "total_seconds": 12.18301796913147
+                }
+            ],
+            "name": "Unknown Project",
+            "operating_systems": [
+                {
+                    "digital": "0:00:12",
+                    "hours": 0,
+                    "minutes": 0,
+                    "name": "Windows",
+                    "percent": 100,
+                    "seconds": 12,
+                    "text": "12 secs",
+                    "total_seconds": 12.18301796913147
+                }
+            ]
+        }
+    ]
+}
