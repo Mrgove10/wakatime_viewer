@@ -2,6 +2,8 @@ var json;
 var list = [];
 list[0] = "";
 
+
+/*
 function handleFileSelect(evt) {
     var files = evt.target.files; // FileList object
 }
@@ -16,10 +18,7 @@ function handleFileSelect(evt) {
         reader.onload = (function (theFile) {
             return function (e) {
                 try {
-                    obj = JSON.parse(e.target.result);
-                    obj.days.forEach(element => {
-                        list.push(element.grand_total.total_seconds)
-                    });
+                    
                     loadchart();
                 } catch (ex) {
                     alert('ex when trying to parse json = ' + ex);
@@ -31,7 +30,21 @@ function handleFileSelect(evt) {
 }
 
 document.getElementById('files').addEventListener('change', handleFileSelect, false);
+*/
 
+/**
+ * Loads all the varriables
+ * @param {*} rawfile 
+ */
+function LoadInfo(rawfile){
+            obj = JSON.parse(rawfile);
+                    obj.days.forEach(element => {
+                        list.push(element.grand_total.total_seconds)
+                    });
+}
+/**
+ * Loads all the chartes
+ */
 function loadchart() {
     c3.generate({
         bindto: '#chart',
@@ -39,12 +52,7 @@ function loadchart() {
             columns: [
                 list, //list of all the seconds
             ],
-            type: 'bar'
-        },
-        bar: {
-            width: {
-                ratio: 1// this makes bar width 50% of length between ticks
-            }
+            type: 'spline'
         },
         subchart: {
             show: true
